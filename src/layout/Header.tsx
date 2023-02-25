@@ -6,7 +6,7 @@ export default function Header() {
             "fontFamily": "Tangerine",
             "color": "white",
             "textAlign": "center",
-            "fontSize": "50px",
+            "fontSize": "100px",
         }}>
             <h1>Recipe Share</h1>
         </div>

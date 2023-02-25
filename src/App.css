@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 header{
     height: fit-content;
     background-image: url("./images/RecipeShare.jpg");
