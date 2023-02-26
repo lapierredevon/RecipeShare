@@ -10,12 +10,12 @@ function App() {
       <header>
         <Header />
       </header>
-      <div className=' flex flex-col md:flex-row md:h-screen'>
-        <div className='bg-amber-200  h-24 w-full md:w-1/6 md:h-full'>
-          <NavBar /> 
+      <div className='flex flex-col md:flex-row'>
+        <div className='bg-amber-200  h-24 w-full md:w-1/6 md:min-h-screen'>
+          <NavBar />
         </div>
         <div className=' w-full md:w-5/6'>
-           <Main />
+          <Main />
         </div>
       </div>
     </div>
