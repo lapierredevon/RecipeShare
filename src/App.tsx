@@ -7,19 +7,13 @@ import NavBar from './layout/NavBar';
 function App() {
   return (
     <div className="App">
-      <header>
-        <Header />
-      </header>
+      <Header />
       <div className='flex flex-col md:flex-row'>
-        <div className='bg-amber-200  h-24 w-full md:w-1/6 md:min-h-screen'>
-          <NavBar />
-        </div>
-        <div className=' w-full md:w-5/6'>
-          <Main />
-        </div>
+        <NavBar />
+        <Main />
       </div>
     </div>
-  );
+  )
 }
 
 export default App;

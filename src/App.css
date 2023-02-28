@@ -2,9 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
-header{
-    height: fit-content;
-    background-image: url("./images/RecipeShare.jpg");
-    background-size: cover;  
-    height: 300px;
+header {
+  height: fit-content;
+  background-image: url("./images/RecipeShare.jpg");
+  background-size: cover;
+  height: 300px;
 }
